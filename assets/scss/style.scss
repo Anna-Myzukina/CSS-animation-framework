@@ -74,7 +74,7 @@ $blockHeight: 100%;
 // [] by atribute
 .block:not(.first){
     background: $bgColor;
-    height: 200px;
+    height: 100%;
     margin-bottom: 20px;
     
     border: $border;
@@ -203,7 +203,8 @@ $blockHeight: 100%;
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 70vh;
+	height: 70vh;
+	z-index: 10;
   }
   
   .item {
